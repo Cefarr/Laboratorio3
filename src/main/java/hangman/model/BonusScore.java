@@ -13,7 +13,7 @@ public class BonusScore  implements GameScore{
 
     
     /**
-     * 
+     * El juego bonifica con 10 puntos x cada palabra correcta y disminuye 5 con cada incorrecta.
      * @param correctCount Es el puntaje que lleva correcto el jugador, siempre empieza desde 0.
      * @param incorrecotCount Con cada error, se disminuye el puntaje total obtenido del usuario
      * @return Regresa el resultado entre correctCount e incorrecotCount, siendo mayor o igual 0, nunca negativo

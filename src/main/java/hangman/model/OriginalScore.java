@@ -14,7 +14,8 @@ import hangman.model.GameScore;
 public class OriginalScore implements GameScore{
 
     /**
-     * 
+     * El juego inicia con un puntaje de 100 y se diminuye 10 con cada error del usuario.
+     * El minimo de puntaje es 0.
      * @param correctCount El puntuja correcto que lleva el usuario.
      * @param incorrecotCount El puntuja incorrecto que lleva el usuario.
      * @return Regresa una resta entre el correctt count y el incorrectCount, siendo la respuesta siempre mayor  o igual a 0.

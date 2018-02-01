@@ -12,7 +12,8 @@ package hangman.model;
 public class PowerScore implements GameScore{
 
     /**
-     * 
+     * EL puntaje aumenta  con el numero de la iesima letra tipo 5^x. Y se disminuye con cada palabra incorrecta
+     * con 8 puntos.
      * @param correctCount Indica el puntaje que lleva el usuario, empieza en 0.
      * @param incorrecotCount Es la cuenta de no aciertos del cliente.
      * @return Es la suma entre correctCOunt e incorrectCOunt, siempre es mayor o igual a 0(no negativo)
